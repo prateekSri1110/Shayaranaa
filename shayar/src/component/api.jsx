@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import link from "../images/link.png";
-import "./All.css";
+import "./all.css";
 
 function Api() {
     const [data, setData] = useState([]);

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import bgimg from "../images/calm.jpg";
 import link from "../images/link.png";
 import logo from "../images/logo1.png";
-import "./All.css";
+import "./all.css";
 
 function Profile() {
 

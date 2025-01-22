@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import dp from '../images/logo1.png';
 import logo from '../images/logo2.png';
-import "./All.css";
+import "./all.css";
 
 function Navbar() {
     const { user, isAuthenticated } = useAuth0();
