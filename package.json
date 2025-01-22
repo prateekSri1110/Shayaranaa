@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon files/index.js",
     "build": "npm install && npm install --prefix shayar && npm run build --prefix shayar",
-    "start": "nodemon files/index.js"
+    "start": "node files/index.js"
   },
   "author": "Prateek",
   "license": "ISC",
