@@ -4,7 +4,7 @@ import gmail from "../images/gmail.png";
 import ig from "../images/ig.png";
 import linkedin from "../images/linkedin.png";
 import me from "../images/prateek.jpg";
-import "./All.css";
+import "./all.css";
 
 function Contact() {
     return (

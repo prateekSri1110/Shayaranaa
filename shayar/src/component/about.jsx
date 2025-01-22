@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from "../images/logo1.png";
-import "./All.css";
+import "./all.css";
 
 function About() {
     return (
