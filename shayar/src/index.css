@@ -1,0 +1,12 @@
+/* In your global CSS file (e.g., index.css or App.css) */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#root {
+  height: 100%; /* Ensures the root div spans full height */
+}

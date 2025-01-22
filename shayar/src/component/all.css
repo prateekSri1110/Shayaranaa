@@ -1,0 +1,33 @@
+.nave {
+    background-color: #006d77;
+}
+
+.content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.bground {
+    background-color: #83c5be;
+}
+
+.ptext {
+    color: #006d77;
+}
+
+.stext {
+    color: #006d77;
+}
+
+.highlight {
+    color: #edf6f9;
+}
+.cards{
+    box-shadow: 3px 3px 5px 4px rgb(130, 130, 138);
+}
+.logs{
+    width: 50px;
+}
+.logs:hover {
+    box-shadow:  5px 5px 5px 2px rgb(97, 95, 95);
+}

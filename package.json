@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon files/index.js",
-    "build": "npm install && npm install --prefix shayarana && npm run build --prefix shayarana",
+    "build":"npm install && npm install --prefix shayar && npm run build --prefix shayar",
     "start": "nodemon files/index.js"
   },
   "author": "Prateek",
