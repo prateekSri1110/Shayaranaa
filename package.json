@@ -1,5 +1,5 @@
 {
-  "name": "files",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,6 @@
   },
   "author": "Prateek",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
@@ -20,5 +19,7 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
