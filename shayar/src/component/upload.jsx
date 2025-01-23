@@ -1,7 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import upload from "../images/upload.jpg";
+import upload from "../images/calm.jpg";
 import "./all.css";
 
 function Upload() {

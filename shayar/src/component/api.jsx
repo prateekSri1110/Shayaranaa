@@ -39,7 +39,7 @@ function Api() {
                 <div className='col-md-2' />
                 <div className='col-md-8 p-3 mb-4'>
                     {data.map((item) => (
-                        <div className="bg-dark-subtle mb-4 p-5 text-center cards" style={{ position: 'relative' }}>
+                        <div className="mb-4 p-4 text-center cards" style={{ position: 'relative' }}>
                             <p className='stext'>{item.lines}</p>
                             <cite className='ptext'>- {item.name}</cite><br /><br />
                             <a className='links' href={item.socialLink} target="_blank" rel="noopener noreferrer" >

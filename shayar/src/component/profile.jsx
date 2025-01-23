@@ -49,14 +49,14 @@ function Profile() {
                     <br />
                     <br />
                     {isAuthenticated &&
-                        <h3>{user.name}</h3>
+                        <h3 className="text-black">{user.name}</h3>
                     }
                     {isAuthenticated &&
-                        <p>{user.email}</p>
+                        <p className="text-black">{user.email}</p>
                     }
                     {isAuthenticated ?
                         (<></>) :
-                        (<h4>Log In First</h4>)
+                        (<h4 className="text-black">Log In First</h4>)
                     }
                 </div>
 
@@ -76,12 +76,12 @@ function Profile() {
                 </div>
                 <div className='col-md-2' />
                 {isAuthenticated ? (
-                    <div className="col-md-8 p-3 mb-4">
+                    <div className="col-md-8 p-2 mb-4">
                         {userPosts.length > 0 ? (
                             userPosts.map((item) => (
                                 <div
                                     key={item._id}
-                                    className="bg-dark-subtle mb-4 p-5 text-center cards"
+                                    className="mb-4 p-4 text-center cards"
                                     style={{ position: "relative" }}
                                 >
                                     <button
@@ -92,25 +92,18 @@ function Profile() {
                                     >
                                         &times;
                                     </button>
-                                    <p className="stext">{item.lines}</p>
-                                    <cite className="ptext">- {item.name}</cite>
+
+                                    <p className='stext'>{item.lines}</p>
+                                    <cite className='ptext'>- {item.name}</cite><br /><br />
+                                    <a className='links' href={item.socialLink} target="_blank" rel="noopener noreferrer" >
+                                        <img
+                                            src={link}
+                                            alt="Instagram"
+                                            style={{ width: "30px", height: "30px" }}
+                                        />
+                                    </a>
                                     <br />
-                                    <br />
-                                    {item.socialLink && (
-                                        <a
-                                            className="links"
-                                            href={item.socialLink}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                src={link}
-                                                alt="Instagram"
-                                                style={{ width: "30px", height: "30px" }}
-                                            />
-                                        </a>
-                                    )}
-                                    <br />
+
                                 </div>
                             ))
                         ) : (
@@ -123,7 +116,7 @@ function Profile() {
                     </div>
                 ) : (
                     <div className="row mt-5">
-                        <h3>No posts available</h3>
+                        <h3>No posts available!</h3>
                     </div>
                 )}
             </div>
@@ -159,7 +152,7 @@ const styles = {
         border: "none",
         borderRadius: "10px",
         cursor: "pointer",
-        
+
         float: "right",
     },
     cross: {

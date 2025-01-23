@@ -1,5 +1,5 @@
 .nave {
-    background-color: #006d77;
+    background-color: #A2615A;
 }
 
 .content {
@@ -8,21 +8,22 @@
 }
 
 .bground {
-    background-color: #83c5be;
+    background-color: #E8ECD6;
 }
 
 .ptext {
-    color: #006d77;
+    color: #A2615A;
 }
 
 .stext {
-    color: #006d77;
+    color: #5B4333;
 }
 
 .highlight {
     color: #edf6f9;
 }
 .cards{
+    background-color: #FDFFF0;
     box-shadow: 3px 3px 5px 4px rgb(130, 130, 138);
 }
 .logs{
